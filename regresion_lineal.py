@@ -3,7 +3,6 @@
 Created on Fri Apr 26 09:40:10 2019
 @author: Jhon Baron
 """
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import math
@@ -19,7 +18,7 @@ likes= df['movie_facebook_likes'];
 #print(likes) #y
 
 n=5043; #No. datos/filas
-sumx = sum(score); 
+sumx = sum(score);
 sumy = sum(likes);
 sumx2 = sum(score*score);
 sumy2 = sum(likes*likes);
@@ -47,11 +46,3 @@ plt.xlabel('Score');
 plt.title('Regresion lineal');
 plt.grid();
 plt.legend();
-
-
-
-
-
-
-
-
