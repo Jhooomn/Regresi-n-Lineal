@@ -1,0 +1,9 @@
+- Regresion likes-score:
+
+x = likes 
+y = score
+
+- Regresion score-likes:
+
+x = score
+y = likes
